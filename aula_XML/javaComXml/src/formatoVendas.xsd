@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/formatoVendas" xmlns:tns="http://www.example.org/formatoVendas" elementFormDefault="qualified">
+
+	<element name="venda">
+		<complexType>
+			<sequence>
+				<element name="formaDePagamento" type="string"></element>
+				<element name="produtos">
+					<complexType>
+						<sequence>
+							<element name="produto" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="nome" type="string"></element>
+										<element name="preco" type="string"></element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+			<attribute name="moeda" type="string" ></attribute>
+		</complexType>
+	</element>
+</schema>
+

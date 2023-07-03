@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<turma nome = "Info-A III">
+	<turno>Integral</turno>
+	<professores>
+		<professor>
+			<nome>Bregues</nome>
+			<materia>Espanhol</materia>
+		</professor>
+		<professor>
+			<nome>Cani</nome>
+			<materia>Ingles</materia>
+		</professor>
+	</professores>
+</turma>
